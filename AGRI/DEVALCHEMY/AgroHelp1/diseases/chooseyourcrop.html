@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Crop</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            margin-top: 14px;
+            padding: 0;
+        }
+
+        p {
+            font-family: "Playfair Display", serif;
+            font-size: 20px;
+            margin-top: 10px;
+            color: black;
+            text-decoration: none;
+        }
+
+        a img {
+            height: 250px;
+            width: 250px;
+            border-radius: 10%;
+            display: block;
+        }
+
+        a {
+            text-align: center;
+            text-decoration: none;
+            font-family: sans-serif;
+            font: bold;
+        }
+
+        .img-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .img-container img {
+            height: 200px;
+            width: 200px;
+            border-radius: 10%;
+            display: block;
+        }
+
+        .heading {
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 20px;
+            font-size: 50px;
+        }
+
+        h3 {
+            margin-top: 0;
+            font-size: 30px;
+        }
+
+        .crop {
+            border: 30px solid black;
+            padding: 20px;
+            margin: 20px auto;
+            text-align: center;
+            max-width: 1000px;
+            align-items: start;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="crop">
+        <h1 class="heading">Pest and Diseases</h1>
+        <h3 class="heading">Choose Your Crop</h3>
+        <div class="img-container">
+            <a href="./wheat/wheat.html"><img src="./images/wheat.jpg">
+                <p>WHEAT</p>
+            </a>
+            <a href="./pulses/pusles.html"><img src="./images/pulses.jpg">
+                <p>PULSES</p>
+            </a>
+            <a href="./rice/rice.html"><img src="./images/rice.jpg">
+                <p>RICE</p>
+            </a>
+            <a href="./maize/maize.html"><img src="./images/maize.jpg">
+                <p>MAIZE</p>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
